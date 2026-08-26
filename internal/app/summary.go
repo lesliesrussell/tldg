@@ -44,14 +44,16 @@ func RunSummary(ctx context.Context, cfg *config.Config, opts SummaryOptions) (*
 		GeneratedAt: time.Now(),
 	}
 
-	// Build the pipeline profile (scan/docs/language) — implemented in M1.
-	if err := analyzeProfile(ctx, cfg, opts, t, prof, res); err != nil {
+	// Scan, extract, detect, and index; obtain the grounding bundle.
+	bundle, err := analyzeProfile(ctx, cfg, opts, t, prof, res)
+	if err != nil {
 		return nil, err
 	}
 	res.Profile = prof
+	res.Evidence = bundle.Evidences()
 
-	// Offline (or no model available): render the structured profile without
-	// LLM synthesis (spec §20 degraded operation).
+	// Offline: render the structured profile without LLM synthesis
+	// (spec §20 degraded operation).
 	if opts.Offline {
 		res.Answer = render.Answer{
 			Text:       profileText(prof),
@@ -61,8 +63,8 @@ func RunSummary(ctx context.Context, cfg *config.Config, opts SummaryOptions) (*
 		return res, nil
 	}
 
-	// Online synthesis — implemented in M1.
-	if err := synthesizeSummary(ctx, cfg, opts, prof, res); err != nil {
+	// Online: local-model synthesis with cited evidence.
+	if err := synthesizeSummary(ctx, cfg, opts, prof, bundle, res); err != nil {
 		return nil, err
 	}
 	return res, nil
