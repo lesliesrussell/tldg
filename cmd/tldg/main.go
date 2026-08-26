@@ -4,7 +4,7 @@ package main
 import (
 	"os"
 
-	"github.com/leslierussell/tldg/internal/cli"
+	"github.com/lesliesrussell/tldg/internal/cli"
 )
 
 // tldg-5xh

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/leslierussell/tldg/internal/scan"
+	"github.com/lesliesrussell/tldg/internal/scan"
 )
 
 // tldg-eca

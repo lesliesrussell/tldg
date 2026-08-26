@@ -3,7 +3,7 @@ package cli
 import (
 	"fmt"
 
-	"github.com/leslierussell/tldg/internal/version"
+	"github.com/lesliesrussell/tldg/internal/version"
 	"github.com/spf13/cobra"
 )
 

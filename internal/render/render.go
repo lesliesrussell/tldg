@@ -3,8 +3,8 @@
 package render
 
 import (
-	"github.com/leslierussell/tldg/internal/evidence"
-	"github.com/leslierussell/tldg/internal/repo"
+	"github.com/lesliesrussell/tldg/internal/evidence"
+	"github.com/lesliesrussell/tldg/internal/repo"
 )
 
 // tldg-5xh

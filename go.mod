@@ -1,4 +1,4 @@
-module github.com/leslierussell/tldg
+module github.com/lesliesrussell/tldg
 
 go 1.26.4
 

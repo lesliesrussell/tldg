@@ -8,17 +8,17 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/leslierussell/tldg/internal/config"
-	"github.com/leslierussell/tldg/internal/docs"
-	"github.com/leslierussell/tldg/internal/evidence"
-	"github.com/leslierussell/tldg/internal/git"
-	"github.com/leslierussell/tldg/internal/index"
-	"github.com/leslierussell/tldg/internal/language"
-	"github.com/leslierussell/tldg/internal/render"
-	"github.com/leslierussell/tldg/internal/repo"
-	"github.com/leslierussell/tldg/internal/scan"
-	"github.com/leslierussell/tldg/internal/target"
-	"github.com/leslierussell/tldg/internal/version"
+	"github.com/lesliesrussell/tldg/internal/config"
+	"github.com/lesliesrussell/tldg/internal/docs"
+	"github.com/lesliesrussell/tldg/internal/evidence"
+	"github.com/lesliesrussell/tldg/internal/git"
+	"github.com/lesliesrussell/tldg/internal/index"
+	"github.com/lesliesrussell/tldg/internal/language"
+	"github.com/lesliesrussell/tldg/internal/render"
+	"github.com/lesliesrussell/tldg/internal/repo"
+	"github.com/lesliesrussell/tldg/internal/scan"
+	"github.com/lesliesrussell/tldg/internal/target"
+	"github.com/lesliesrussell/tldg/internal/version"
 )
 
 // tldg-eca

@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/leslierussell/tldg/internal/config"
-	"github.com/leslierussell/tldg/internal/evidence"
-	"github.com/leslierussell/tldg/internal/git"
-	"github.com/leslierussell/tldg/internal/render"
-	"github.com/leslierussell/tldg/internal/repo"
-	"github.com/leslierussell/tldg/internal/target"
+	"github.com/lesliesrussell/tldg/internal/config"
+	"github.com/lesliesrussell/tldg/internal/evidence"
+	"github.com/lesliesrussell/tldg/internal/git"
+	"github.com/lesliesrussell/tldg/internal/render"
+	"github.com/lesliesrussell/tldg/internal/repo"
+	"github.com/lesliesrussell/tldg/internal/target"
 )
 
 // tldg-5xh

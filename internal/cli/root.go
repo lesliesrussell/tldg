@@ -4,7 +4,7 @@ package cli
 import (
 	"fmt"
 
-	"github.com/leslierussell/tldg/internal/config"
+	"github.com/lesliesrussell/tldg/internal/config"
 	"github.com/spf13/cobra"
 )
 

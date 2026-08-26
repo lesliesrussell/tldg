@@ -12,7 +12,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/leslierussell/tldg/internal/git"
+	"github.com/lesliesrussell/tldg/internal/git"
 )
 
 // tldg-5xh

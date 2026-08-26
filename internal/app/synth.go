@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/leslierussell/tldg/internal/config"
-	"github.com/leslierussell/tldg/internal/evidence"
-	"github.com/leslierussell/tldg/internal/models"
-	"github.com/leslierussell/tldg/internal/render"
-	"github.com/leslierussell/tldg/internal/repo"
+	"github.com/lesliesrussell/tldg/internal/config"
+	"github.com/lesliesrussell/tldg/internal/evidence"
+	"github.com/lesliesrussell/tldg/internal/models"
+	"github.com/lesliesrussell/tldg/internal/render"
+	"github.com/lesliesrussell/tldg/internal/repo"
 )
 
 // tldg-eca

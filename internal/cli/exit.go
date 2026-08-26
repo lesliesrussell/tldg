@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/leslierussell/tldg/internal/target"
+	"github.com/lesliesrussell/tldg/internal/target"
 )
 
 // tldg-5xh

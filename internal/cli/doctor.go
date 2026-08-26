@@ -4,7 +4,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/leslierussell/tldg/internal/app"
+	"github.com/lesliesrussell/tldg/internal/app"
 	"github.com/spf13/cobra"
 )
 

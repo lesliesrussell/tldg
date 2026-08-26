@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/leslierussell/tldg/internal/config"
+	"github.com/lesliesrussell/tldg/internal/config"
 )
 
 // tldg-5xh

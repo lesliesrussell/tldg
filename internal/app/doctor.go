@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/leslierussell/tldg/internal/config"
-	"github.com/leslierussell/tldg/internal/git"
-	"github.com/leslierussell/tldg/internal/index"
-	"github.com/leslierussell/tldg/internal/models"
+	"github.com/lesliesrussell/tldg/internal/config"
+	"github.com/lesliesrussell/tldg/internal/git"
+	"github.com/lesliesrussell/tldg/internal/index"
+	"github.com/lesliesrussell/tldg/internal/models"
 )
 
 // tldg-5xh

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/leslierussell/tldg/internal/repo"
+	"github.com/lesliesrussell/tldg/internal/repo"
 )
 
 // tldg-eca

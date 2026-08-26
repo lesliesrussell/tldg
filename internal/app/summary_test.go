@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/leslierussell/tldg/internal/config"
+	"github.com/lesliesrussell/tldg/internal/config"
 )
 
 // tldg-eca
