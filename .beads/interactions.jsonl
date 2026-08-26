@@ -1,0 +1,1 @@
+{"id":"int-6ce4d43c45618f594dc22dc2c4982bda","kind":"field_change","created_at":"2026-08-26T14:53:25.530629Z","actor":"Leslie Russell","issue_id":"tldg-5xh","extra":{"field":"status","new_value":"closed","old_value":"in_progress","reason":"M0 delivered: doctor + config + summary --offline green; go test passes"}}
