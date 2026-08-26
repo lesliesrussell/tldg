@@ -1,6 +1,4 @@
-
-# Beads / Dolt files (added by bd init)
-.dolt/
+bin/
+tldg
 *.db
-.beads-credential-key
-.beads/proxieddb/
+.beads/*.lock
